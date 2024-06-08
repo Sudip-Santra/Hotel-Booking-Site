@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Find Hotel Rooms.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Alpha Stay - Find Hotel Rooms</title>
+  <link rel="website icon" type="jpg" href="logo.jpg">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar_logo">
+      <img src="logo.jpg" alt="Logo">
+      <h2>Alpha Stay</h2>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class='bx bx-menu'></i>
+    </div>
+    <div class="close-icon" onclick="toggleMenu()" style="display:none;">
+      <i class='bx bx-x'></i>
+    </div>
+    <div class="navbar_menu" id="navbarMenu">
+      <a href="index.html" onclick = "window.close(this)">Home</a>
+      <a href="#">Our Mission</a>
+      <a href="#">Why Alpha Stay</a>
+      <a href="#">List Your Hotel</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+  <div class="section_container header_container">
+    <div class="header_image_container">
+      <div class="header_content">
+        <h1>Welcome To Hotel Name!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, voluptate.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section_container room_container">
+    <h2 class="section_header" align="center">Our Rooms</h2>
+    <div class="room_grid">
+      <div class="room_card">
+        <img
+          src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="room hotel" />
+        <div class="room_content">
+          <div class="room_card_header">
+            <h4>AC Room</h4>
+            <h4>Rs.999/Day</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, omnis.</p>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <p>(100 Reviews)</p>
+          </div>
+          <div class="book">
+            <i class='bx bxs-circle'></i> Book Now
+          </div>
+        </div>
+      </div>
+      <div class="room_card">
+        <img
+          src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="room hotel" />
+        <div class="room_content">
+          <div class="room_card_header">
+            <h4>Non-AC Room</h4>
+            <h4>Rs.649/Day</h4>
+          </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, necessitatibus.</p>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <p>(100 Reviews)</p>
+          </div>
+          <div class="book" id="Unavailable">
+            <i class='bx bxs-circle' style="color: red;"></i> Unavailable
+          </div>
+        </div>
+      </div>
+      <div class="room_card">
+        <img
+          src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="room hotel" />
+        <div class="room_content">
+          <div class="room_card_header">
+            <h4>Luxury Room</h4>
+            <h4>Rs.1499/Day</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, maiores.</p>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <p>(100 Reviews)</p>
+          </div>
+          <div class="book">
+            <i class='bx bxs-circle'></i> Book Now
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="button">
+      <button class="contact-btn">Contact</button>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
