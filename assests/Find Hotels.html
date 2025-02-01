@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Find Hotels.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Alpha Stay - Find Hotels</title>
+  <link rel="website icon" type="jpg" href="logo.jpg">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar_logo">
+      <img src="logo.jpg" alt="Logo">
+      <h2>Alpha Stay</h2>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class='bx bx-menu'></i>
+    </div>
+    <div class="close-icon" onclick="toggleMenu()" style="display:none;">
+      <i class='bx bx-x'></i>
+    </div>
+    <div class="navbar_menu" id="navbarMenu">
+      <a href="index.html" onclick="window.close(this)">Home</a>
+      <a href="#">Our Mission</a>
+      <a href="#">Why Alpha Stay</a>
+      <a href="#">List Your Hotel</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+  <div class="section_container header_container">
+    <div class="header_image_container">
+      <div class="header_content">
+        <h1>Welcome To Alpha Stay!</h1>
+        <p>Book Verified Hotels, Rooms and stay packages at lowest price.</p>
+      </div>
+      <div class="booking_container">
+        <form>
+          <div class="form_group">
+            <div class="input_group">
+              <input type="text" />
+              <label>Location</label>
+            </div>
+            <p>Where are you going?</p>
+          </div>
+          <div class="form_group">
+            <div class="input_group">
+              <input type="text" />
+              <label>Check In</label>
+            </div>
+            <p>Add date</p>
+          </div>
+          <div class="form_group">
+            <div class="input_group">
+              <input type="text" />
+              <label>Check Out</label>
+            </div>
+            <p>Add date</p>
+          </div>
+          <div class="form_group">
+            <div class="input_group">
+              <input type="text" />
+              <label>Guests</label>
+            </div>
+            <p>Add guests</p>
+          </div>
+        </form>
+        <button class="btn"><i class='bx bx-search' style='color:#ffffff'></i></button>
+      </div>
+    </div>
+  </div>
+
+  <section class="section_container popular_container">
+    <h2 class="section_header" align="center">Popular Hotels</h2>
+    <p class="line" style="color: red;">━</p>
+    <div class="popular_grid">
+      <a href="HotelDetails.html">
+        <div class="popular_card">
+          <img
+            src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="popular hotel" />
+          <div class="popular_content">
+            <div class="popular_card_header">
+              <h4>Hotel 1</h4>
+              <h4>Starts @ Rs.499</h4>
+            </div>
+            <p>Pune, Maharashtra</p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <p>(100 Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="HotelDetails.html">
+        <div class="popular_card">
+          <img
+            src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="popular hotel" />
+          <div class="popular_content">
+            <div class="popular_card_header">
+              <h4>Hotel 2</h4>
+              <h4>Starts @ Rs.549</h4>
+            </div>
+            <p>Pune, Maharashtra</p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <p>(100 Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="HotelDetails.html">
+        <div class="popular_card">
+          <img
+            src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="popular hotel" />
+          <div class="popular_content">
+            <div class="popular_card_header">
+              <h4>Hotel 3</h4>
+              <h4>Starts @ Rs.599</h4>
+            </div>
+            <p>Pune, Maharashtra</p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <p>(100 Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="HotelDetails.html">
+        <div class="popular_card">
+          <img
+            src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="popular hotel" />
+          <div class="popular_content">
+            <div class="popular_card_header">
+              <h4>Hotel 4</h4>
+              <h4>Starts @ Rs.449</h4>
+            </div>
+            <p>Pune, Maharashtra</p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <p>(100 Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="HotelDetails.html">
+        <div class="popular_card">
+          <img
+            src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="popular hotel" />
+          <div class="popular_content">
+            <div class="popular_card_header">
+              <h4>Hotel 5</h4>
+              <h4>Starts @ Rs.649</h4>
+            </div>
+            <p>Pune, Maharashtra</p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <p>(100 Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="HotelDetails.html">
+        <div class="popular_card">
+          <img
+            src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="popular hotel" />
+          <div class="popular_content">
+            <div class="popular_card_header">
+              <h4>Hotel 6</h4>
+              <h4>Starts @ Rs.549</h4>
+            </div>
+            <p>Pune, Maharashtra</p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <p>(100 Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="button">
+      <button class="contact-btn">Load More</button>
+    </div>
+  </section>
+  <footer>
+    Copyright &copy; 2025 - Alpha Tech
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

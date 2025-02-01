@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Stay - Update Details</title>
+    <link rel="website icon" type="jpg" href="logo.jpg">
+    <link rel="stylesheet" href="updateDetails.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <img src="logo.jpg" alt="Logo">
+            <h2>Alpha Stay</h2>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="close-icon" onclick="toggleMenu()">
+            <i class='bx bx-x'></i>
+        </div>
+        <div class="navbar_menu" id="navbarMenu">
+            <a href="index.html" onclick="window.close(this)">Home</a>
+            <a href="#">Our Mission</a>
+            <a href="#">Why Alpha Stay</a>
+            <a href="#">List Your Hotel</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <header>Update Details</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details Hotel">
+                    <span class="title">Basic Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="name">Hotel Name</label>
+                            <input type="text" placeholder="Enter Hotel Name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="contact">Contact Details</label>
+                            <input type="number" placeholder="Enter Contact Details" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="Address">Address</label>
+                            <input type="text" placeholder="Enter Address" required>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="details Rooms">
+                    <span class="title">Room Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="type">Room Type - 1</label>
+                            <input type="text" placeholder="Enter Type of Room" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="price">Price (Rs. / Day)</label>
+                            <input type="number" placeholder="Enter Price" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="number">Number of Rooms</label>
+                            <input type="number" placeholder="Enter Number of Rooms" required>
+                        </div>
+                        <div class="availability-check">
+                            <label for="availability-check">Currently Available : &nbsp; &nbsp;</label>
+                            <input type="radio" id="yes" name="availability-check" value="yes">
+                            <label for="yes">Yes</label> &nbsp; &nbsp;
+                            <input type="radio" id="no" name="availability-check" value="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="type">Room Type - 2</label>
+                            <input type="text" placeholder="Enter Type of Room" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="price">Price (Rs. / Day)</label>
+                            <input type="number" placeholder="Enter Price" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="number">Number of Rooms</label>
+                            <input type="number" placeholder="Enter Number of Rooms" required>
+                        </div>
+                        <div class="availability-check">
+                            <label for="availability-check">Currently Available : &nbsp; &nbsp;</label>
+                            <input type="radio" id="yes" name="availability-check" value="yes">
+                            <label for="yes">Yes</label> &nbsp; &nbsp;
+                            <input type="radio" id="no" name="availability-check" value="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="type">Room Type - 3</label>
+                            <input type="text" placeholder="Enter Type of Room" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="price">Price (Rs. / Day)</label>
+                            <input type="number" placeholder="Enter Price" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="number">Number of Rooms</label>
+                            <input type="number" placeholder="Enter Number of Rooms" required>
+                        </div>
+                        <div class="availability-check">
+                            <label for="availability-check">Currently Available : &nbsp; &nbsp;</label>
+                            <input type="radio" id="yes" name="availability-check" value="yes">
+                            <label for="yes">Yes</label> &nbsp; &nbsp;
+                            <input type="radio" id="no" name="availability-check" value="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="type">Room Type - 4</label>
+                            <input type="text" placeholder="Enter Type of Room" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="price">Price (Rs. / Day)</label>
+                            <input type="number" placeholder="Enter Price" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="number">Number of Rooms</label>
+                            <input type="number" placeholder="Enter Number of Rooms" required>
+                        </div>
+                        <div class="availability-check">
+                            <label for="availability-check">Currently Available : &nbsp; &nbsp;</label>
+                            <input type="radio" id="yes" name="availability-check" value="yes">
+                            <label for="yes">Yes</label> &nbsp; &nbsp;
+                            <input type="radio" id="no" name="availability-check" value="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submitBtn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <footer>
+        Copyright &copy; 2025 - Alpha Tech
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
